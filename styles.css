@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(143, 61, 55); 
+    
+}
+.header{
+    margin-top: 0px;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    font-family: serif;
+    font-size:px;
+    width: auto;
+    flex-wrap: wrap;
+    color: rgb(143, 61, 55);
+
+}
+.header a{
+    color:rgb(201, 178, 124) ;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 770px;
+}
+
+.intro-img {
+    margin-top: 0px; 
+    
+}
+
+.intro-text {
+    margin-top: 150px;
+    width: 800px;
+    height: 400px;    
+}
+
+.intro-text h1 {
+    letter-spacing: 0.5px;;
+    font-size: 60px;
+    color: rgb(201, 178, 124);
+    
+}
+.intro-text p {
+    word-spacing: 0.2em ;
+    font-size: 28px;
+    color: rgb(201, 178, 124);
+    line-height: 1.5;
+}
+.skills {
+    color: rgb(201, 178, 124);
+    width: auto;
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    background-image:url(computerbg.png);
+    background-size: auto 780px;
+    background-repeat: no-repeat;
+   
+}
+
+.skills h2 {
+    padding: 20px;
+    margin-left: 890px;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    width: 130px;
+    height: 60px;
+    margin-top: 80px;
+   
+}
+
+.skills-list {
+    margin-top: 90px;
+    margin-left: 700px;
+    color: rgb(143, 61, 55);
+    width: 470px;
+    height: 240px;
+    font-size: 26px;
+    background-color: rgb(201, 178, 124);
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 50px;
+
+
+}
+.pro {
+    padding: 20px;
+    color: rgb(201, 178, 124);
+    width: auto;
+    height: 730px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image:url(3dbg.png);
+    background-size: 1200px 730px;
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+}
+
+.pro h2 {   
+    padding: 20px;
+    margin-left: 350px;
+    font-size: 50px;
+    margin-top: 100px;
+    letter-spacing: 0.08em;
+    width: 200px;
+    height: 60px;
+}
+
+.pro ul {
+    padding: 40px;
+    margin-left: 100px;
+    color: rgb(143, 61, 55);
+    height: 160px;
+    width: 700px;
+    font-size: 26px;
+    background-color: rgb(201, 178, 124);
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+.cer {
+    padding: 30px;
+    color: rgb(201, 178, 124);
+    width: auto;
+    height: 730px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image:url(3dball.png);
+    background-size: 1200px 730px;
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+
+}
+
+.cer h2 {
+    margin-left: 800px;
+    padding: 30px;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    margin-top: 100px;
+    width: 350px;
+    height: 60px;
+}
+
+.cer ul {
+    margin-top: 90px;
+    padding: 30px;
+    margin-left: 800px;
+    color: rgb(143, 61, 55);
+    height: 80px;
+    width: 400px;
+    font-size: 26px;
+    background-color: rgb(201, 178, 124);
+    border-radius: 10px;
+    line-height: 1.5;
+
+}
+.intern{
+    color: rgb(201, 178, 124);
+    height: 830px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image:url(3DU.png);
+    background-size: 100% 780px;
+    background-repeat: no-repeat;
+}
+
+.intern h2 {
+    margin-left: 250px;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    margin-top: 200px;
+    width: 260px;
+    padding: 20px;
+    height: 60px;
+    
+}
+
+.intern ul {
+    margin-top: 100px;
+    margin-left: 170px;
+    color: rgb(143, 61, 55);
+    height: 100px;
+    width: 500px;
+    font-size: 26px;
+    background-color: rgb(201, 178, 124);
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 30px;
+
+}
+
+.contact {
+    height: 780px;
+    width: auto;
+    background-image:url(contactbg.png);
+    background-size: 100% 780px;
+    background-repeat: no-repeat;
+    margin: -8px;
+   
+    
+}
+.contact h2 {
+    margin-left: 40%;
+    letter-spacing: .08em;
+    font-size: 50px;
+    color: rgb(201, 178, 124);
+    width: 300px;
+}
+.contact p {
+    margin-left: 35%;
+    font-size: 25px;
+    color: rgb(201, 178, 124);
+    line-height: 1.5;
+}
+.contact p a{
+    color: rgb(201, 178, 124);
+    text-decoration:underline;
+    margin-left: 3%;
+}
+.contact h3{
+    margin-left: 40%;
+    color: rgb(201, 178, 124);
+    font-size: 19px;
+
+}
+.contact p a:hover {
+    color: rgb(108, 29, 2);
+    text-decoration: none;
+}
+.header a:hover {
+    color: rgb(108, 29, 2);
+    text-decoration: none;
+}
+
